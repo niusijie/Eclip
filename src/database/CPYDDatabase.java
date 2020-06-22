@@ -16,6 +16,7 @@ public class CPYDDatabase {
 	private static Connection conn = null;
 
 	// 取得数据库连接，本服务器程序仅使用这一个连接实例
+//	secondMDMFDSM
 	private static Connection getConnection() {
 		if (conn != null) {
 			return conn;
@@ -25,6 +26,7 @@ public class CPYDDatabase {
 		String url = "jdbc:mysql://localhost:3306/CPYD";
 		String account_MySQL = "root";
 		String password_MySQL = "1234";
+		String sconf = null;
 
 		try {
 			Class.forName(driver_MySQL);
