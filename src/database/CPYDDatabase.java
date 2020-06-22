@@ -16,7 +16,11 @@ public class CPYDDatabase {
 	private static Connection conn = null;
 
 	// 取得数据库连接，本服务器程序仅使用这一个连接实例
+<<<<<<< HEAD
 //	first
+=======
+//	secondMDMFDSM
+>>>>>>> branch 'master' of https://github.com/niusijie/Eclip.git
 	private static Connection getConnection() {
 		if (conn != null) {
 			return conn;
@@ -26,7 +30,11 @@ public class CPYDDatabase {
 		String url = "jdbc:mysql://localhost:3306/CPYD";
 		String account_MySQL = "root";
 		String password_MySQL = "1234";
+<<<<<<< HEAD
 		String first = null;
+=======
+		String sconf = null;
+>>>>>>> branch 'master' of https://github.com/niusijie/Eclip.git
 
 		try {
 			Class.forName(driver_MySQL);
